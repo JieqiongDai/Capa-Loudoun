@@ -22,19 +22,19 @@ if(isset($_POST['submit'])){
     }
 ?>
 
-#<!DOCTYPE html>
-#<head>
-#<title>Form submission</title>
-#</head>
-#<body>
+<!DOCTYPE html>
+<head>
+<title>Form submission</title>
+</head>
+<body>
 
-#<form action="" method="post">
-#First Name: <input type="text" name="first_name"><br>
+<form action="" method="post">
+Name: <input type="text" name="name"><br>
 #Last Name: <input type="text" name="last_name"><br>
-#Email: <input type="text" name="email"><br>
-#Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
-#<input type="submit" name="submit" value="Submit">
-#</form>
+Email: <input type="text" name="email"><br>
+Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+<input type="submit" name="submit" value="Submit">
+</form>
 
-#</body>
-#</html> 
+</body>
+</html> 
