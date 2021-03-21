@@ -147,8 +147,18 @@
                   <a href="school_board.html">Read More</a>
                 </div>
               </div>
-           
-              
+
+             <strong>Leave a Comment</strong>
+             <form action="/html/tags/html_form_tag_action.cfm" method="post">
+             <div>
+             <textarea name="comments" id="comments" rows="10" cols= "70" tabindex="4" style="font-family:sans-serif;font-size:1.2em;" required="required">
+             Leave a comment here:
+             </textarea>
+             </div>
+              <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+              <input name="submit" type="submit" value="Submit comment" />
+             </form>
+<!--              
               <div id="respond">
               <strong>Leave a Comment</strong>
               <form action="html/tags/html_form_tag_action.cfm" method="post" id="commentform">
@@ -163,7 +173,7 @@
               <input name="submit" type="submit" value="Submit comment" />
               </form>
               </div>
-
+-->
             </article><!-- End blog entry -->
           </div><!-- End blog entries list -->
   
