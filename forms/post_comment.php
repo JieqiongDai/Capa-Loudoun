@@ -1,5 +1,5 @@
 <?php
-require('Persistence.php');
+require('forms/Persistence.php');
 
 $db = new Persistence();
 if( $db->add_comment($_POST) ) {
